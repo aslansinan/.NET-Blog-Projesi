@@ -1,0 +1,15 @@
+﻿ <nav class="navbar navbar-expand-lg navbar-light bg-white osahan-header py-0 container">
+            <a class="navbar-brand mr-0" href="home.html"><img class="img-fluid logo-img rounded-pill border shadow-sm" src="img/logo.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            @await Html.PartialAsync("PartialCities")
+            <div class="ml-auto d-flex align-items-center">
+               <!-- login/signup -->
+               @await Html.PartialAsync("PartialLogin")
+               <!-- cart -->
+               <a href="cart.html" class="ml-2 text-dark bg-light rounded-pill p-2 icofont-size border shadow-sm">
+               <i class="icofont-shopping-cart"></i>
+               </a>
+            </div>
+         </nav>

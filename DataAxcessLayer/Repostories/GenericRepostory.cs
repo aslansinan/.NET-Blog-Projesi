@@ -23,11 +23,12 @@ namespace DataAxcessLayer.Repostories
             return c.Set<T>().Find();
         }
 
-        public List<T> GetLiatAll()
+        public List<T> GetListAll()
         {
             using var c = new Context();
             return c.Set<T>().ToList();
         }
+
 
         public void Insert(T t)
         {

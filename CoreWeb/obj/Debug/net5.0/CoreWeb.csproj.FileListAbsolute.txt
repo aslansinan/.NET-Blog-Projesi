@@ -436,3 +436,13 @@ C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\bin\Debug\net5.0\DataAxcessLayer.pdb
 C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\bin\Debug\net5.0\EntityLayer.pdb
 C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\UserLayout.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Blog\Index.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\Partial1.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\Partial2.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\PartialCities.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\PartialLogin.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\PartialFooterTop.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\PartialFooterMiddle.cshtml.g.cs
+C:\Users\Sinan\source\repos\CoreWeb\CoreWeb\obj\Debug\net5.0\Razor\Views\Shared\PartialFooterBottom.cshtml.g.cs

@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAxcessLayer.Abstract;
 using DataAxcessLayer.EntityFramework;
 using DataAxcessLayer.Repostories;
 using EntityLayer.Concrete;
@@ -12,34 +13,36 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        EfCategoryRepostory efCategoryRepostory;
-        public CategoryManager()
+        ICategoryDal _categoryDal;
+
+        public CategoryManager(ICategoryDal categoryDal)
         {
-            efCategoryRepostory = new EfCategoryRepostory();
+            _categoryDal = categoryDal;
         }
+
         public void AddCategory(Category category)
         {
-            efCategoryRepostory.Insert(category);
+            _categoryDal.Insert(category);
         }
 
         public void DeleteCategory(Category category)
         {
-            efCategoryRepostory.Delete(category);
+            _categoryDal.Delete(category);
         }
 
         public Category GetById(int id)
         {
-            return efCategoryRepostory.GetById(id);
+            return _categoryDal.GetById(id);
         }
 
-        public List<Category> GetList()
+        public List<Category>GetList()
         {
-            return efCategoryRepostory.GetListAll();
+            return _categoryDal.GetListAll();
         }
 
         public void UpdateCategory(Category category)
         {
-            efCategoryRepostory.Update(category);
+            _categoryDal.Update(category);
         }
     }
 }
